@@ -1,8 +1,13 @@
+<!DOCTYPE html>
 <html>
-    <title>
+<head>
+<title>Page Title</title>
+</head>
+<body>
 
-    </title>
-    <body>
-        
-    </body>
+<h1>This is a Heading</h1>
+<p>This is a paragraph.hi </p>
+
+
+</body>
 </html>
