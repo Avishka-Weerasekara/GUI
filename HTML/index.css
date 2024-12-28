@@ -82,8 +82,96 @@
 
 /* Main Content Area */
 .main-content {
-    padding-top: 80px; 
+    padding-top: 80px;
     min-height: 100vh;
+}
+
+/* Home Section Styles */
+.home-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.home-content {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.home-content h1 {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.home-content p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.image-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 4rem 2rem 2rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.footer-section h3 {
+    color: #ffd700;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.footer-section p {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+.footer-section a {
+    display: block;
+    color: #cccccc;
+    text-decoration: none;
+    margin-bottom: 0.8rem;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #ffd700;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #333;
+    color: #888;
 }
 
 /* Mobile Responsive Design */
@@ -124,5 +212,26 @@
 
     .menu-toggle.active .bar:nth-child(3) {
         transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 2rem;
+    }
+
+    .home-content h1 {
+        font-size: 2rem;
+    }
+
+    .home-content p {
+        font-size: 1rem;
+    }
+
+    .featured-image {
+        max-width: 100%;
     }
 }
