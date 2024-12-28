@@ -6,6 +6,71 @@
 }
 
 /* Horizontal Navigation Styles */
+
+.dropbtn {
+    color: #ffffff;
+    background: none;
+    border: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    position: relative;  /* Added for underline effect */
+}
+
+/* Add hover effects to match nav links */
+.dropdown:hover .dropbtn {
+    background-color: #ffd700;
+    color: #1a1a1a;
+    transform: translateY(-2px);
+}
+
+/* Add underline effect */
+.dropbtn::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffd700;
+    transition: width 0.3s ease;
+}
+
+.dropdown:hover .dropbtn::after {
+    width: 100%;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Update dropdown-content styles */
+.dropdown-content {
+    margin-top: 2px;
+    background-color: #1a1a1a;  /* Match navbar background */
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .dropdown:hover .dropbtn {
+        transform: none;
+    }
+    
+    .dropbtn::after {
+        display: none;
+    }
+    
+    .dropdown-content {
+        background-color: transparent;
+    }
+}
+
 .navbar {
     background-color: #1a1a1a;
     padding: 1rem 2rem;
@@ -79,6 +144,7 @@
     margin: 5px 0;
     transition: 0.3s;
 }
+
 
 /* Main Content Area */
 .main-content {

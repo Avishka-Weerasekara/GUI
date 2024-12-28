@@ -31,3 +31,29 @@ window.addEventListener('scroll', () => {
         navbar.style.background = '#1a1a1a';
     }
 });
+const dropdowns = document.querySelectorAll('.dropdown');
+
+dropdowns.forEach(dropdown => {
+    const button = dropdown.querySelector('.dropbtn');
+    
+    button.addEventListener('click', (e) => {
+        e.stopPropagation();
+        dropdowns.forEach(d => {
+            if (d !== dropdown) {
+                d.classList.remove('active');
+            }
+        });
+        dropdown.classList.toggle('active');
+    });
+});
+
+// Update your existing document click listener
+document.addEventListener('click', (e) => {
+    if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
+        menuToggle.classList.remove('active');
+        navLinks.classList.remove('active');
+        dropdowns.forEach(dropdown => {
+            dropdown.classList.remove('active');
+        });
+    }
+});

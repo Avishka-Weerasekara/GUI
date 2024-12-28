@@ -31,3 +31,35 @@ window.addEventListener('scroll', () => {
         navbar.style.background = '#1a1a1a';
     }
 });
+window.addEventListener('resize', () => {
+    const dropdowns = document.querySelectorAll('.dropdown');
+    
+    if (isMobile()) {
+        // Enable click behavior for mobile
+        dropdowns.forEach(dropdown => {
+            const button = dropdown.querySelector('.dropbtn');
+            
+            button.addEventListener('click', (e) => {
+                e.stopPropagation();
+                dropdowns.forEach(d => {
+                    if (d !== dropdown) {
+                        d.classList.remove('active');
+                    }
+                });
+                dropdown.classList.toggle('active');
+            });
+        });
+    }
+});
+
+// Update your existing document click listener
+document.addEventListener('click', (e) => {
+    if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
+        menuToggle.classList.remove('active');
+        navLinks.classList.remove('active');
+        dropdowns.forEach(dropdown => {
+            dropdown.classList.remove('active');
+        });
+    }
+});
+window.dispatchEvent(new Event('resize'));
