@@ -181,6 +181,7 @@
 .main-content {
     padding-top: 80px;
     min-height: 100vh;
+    background: radial-gradient(#f7e665, #f0c200);
 }
 
 /* Home Section Styles */
