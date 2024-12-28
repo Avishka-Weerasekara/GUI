@@ -2,24 +2,32 @@ const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 
 menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
     navLinks.classList.toggle('active');
-    
-    // Animate hamburger menu
-    const bars = document.querySelectorAll('.bar');
-    bars.forEach(bar => bar.classList.toggle('active'));
 });
 
-// Close mobile menu when clicking outside
+// Close menu when clicking outside
 document.addEventListener('click', (e) => {
     if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
+        menuToggle.classList.remove('active');
         navLinks.classList.remove('active');
-        const bars = document.querySelectorAll('.bar');
-        bars.forEach(bar => bar.classList.remove('active'));
     }
 });
 
-// Sticky navigation
+// Close menu when clicking a link
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        menuToggle.classList.remove('active');
+        navLinks.classList.remove('active');
+    });
+});
+
+// Add scroll effect
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
-    navbar.classList.toggle('sticky', window.scrollY > 0);
+    if (window.scrollY > 50) {
+        navbar.style.background = '#1a1a1a';
+    } else {
+        navbar.style.background = '#1a1a1a';
+    }
 });
