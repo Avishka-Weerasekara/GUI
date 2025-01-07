@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes ,Route } from 'react-router-dom'
-import Home from './pages/Home/Home'
-import Res from './pages/Res/Res'
-import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
+import Home from './Home'
+import Res from './Res'
+import Menu from './Menu'
+
 
 
 export default function App(){
@@ -11,7 +12,7 @@ export default function App(){
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/res" element={<Res />} />
-        <Route path="/place-order" element={<PlaceOrder />} />
+        <Route path="/menu" element={<Menu />} />
 
         </Routes>
       </BrowserRouter>
