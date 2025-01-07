@@ -86,39 +86,5 @@
     </footer>
 
     <script src="index.js"></script>
-
-    <form id="reservationForm" onsubmit="handleReservation(event)">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="date" name="date" required>
-        <input type="time" name="time" required>
-        <input type="number" name="guests" placeholder="Number of Guests" required>
-        <input type="tel" name="phone" placeholder="Phone Number" required>
-        <button type="submit">Make Reservation</button>
-    </form>
-    
-    <script>
-    async function handleReservation(event) {
-        event.preventDefault();
-        const form = event.target;
-        const formData = new FormData(form);
-        
-        const reservationData = {
-            name: formData.get('name'),
-            date: formData.get('date'),
-            time: formData.get('time'),
-            guests: parseInt(formData.get('guests')),
-            phone: formData.get('phone')
-        };
-    
-        try {
-            const response = await makeReservation(reservationData);
-            alert('Reservation confirmed!');
-            form.reset();
-        } catch (error) {
-            alert('Error making reservation. Please try again.');
-        }
-    }
-    </script>
-    
 </body>
 </html>
