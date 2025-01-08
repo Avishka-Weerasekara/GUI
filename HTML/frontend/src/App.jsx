@@ -1,21 +1,20 @@
-import { BrowserRouter, Routes ,Route } from 'react-router-dom'
-import Home from './Home'
-import Res from './Res'
-import Menu from './Menu'
+import React from 'react'
+import Navbar from './components/Navbar/Navbar'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home/Home'
+import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 
-
-
-export default function App(){
-  return(
-    <div>
-      <BrowserRouter>
-        <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/res" element={<Res />} />
-        <Route path="/menu" element={<Menu />} />
-
-        </Routes>
-      </BrowserRouter>
+const App = () => {
+  return (
+    <div className='app'>
+      <Navbar/>
+      <Routes>
+        < Route path='/' element={<Home/>} />
+        < Route path='/cart' element={<Cart/>} />
+        < Route path='/order' element={<PlaceOrder/>} />
+      </Routes>
     </div>
   )
 }
+
+export default App
