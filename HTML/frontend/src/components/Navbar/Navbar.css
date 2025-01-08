@@ -1,62 +1,116 @@
-.navbar{
-    padding: 20px 0px;
+.navbar {
+    padding: 1.25rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.navbar .logo{
-    width: 150px;
-}
-
-.navbar-menu{
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    color: gray;
-    font-size: 18px;
-}
-
-.navbar-right{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.navbar button{
-    background: transparent;
-    font-size: 16px;
-    color: gray;
-    border: 1px solid tomato;
-    padding: 10px 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.navbar button:hover{
-    background-color: rgb(224, 223, 223);
-}
-
-.navbar .active{
-    padding-bottom: 2px;
-    border-bottom: 2px solid gray;
-}
-
-.navbar li{
-    cursor: pointer;
-}
-
-.navbar-search-icon{
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     position: relative;
 }
 
-.navbar-search-icon .dot{
+.navbar .logo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    color: #4B5563;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar button {
+    background: white;
+    font-size: 0.95rem;
+    color: #4B5563;
+    border: 1.5px solid #FF6B6B;
+    padding: 0.625rem 1.5rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.navbar button:hover {
+    background: #FF6B6B;
+    color: white;
+}
+
+.navbar .active {
+    color: #1F2937;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid #FF6B6B;
+    font-weight: 600;
+}
+
+.navbar li {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.navbar li:hover {
+    color: #1F2937;
+}
+
+.navbar-search-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar-search-icon .dot {
     position: absolute;
-    min-width: 10px;
-    min-height: 10px;
-    background-color: tomato;
-    border-radius: 5px;
-    top: -8px;
-    right: -8px;
+    width: 0.625rem;
+    height: 0.625rem;
+    background-color: #FF6B6B;
+    border-radius: 50%;
+    top: -0.375rem;
+    right: -0.375rem;
+    border: 2px solid white;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: white;
+        padding: 1rem;
+        gap: 1rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+
+    .navbar-menu.open {
+        display: flex;
+    }
+
+    .navbar-right {
+        gap: 1rem;
+    }
+
+    .navbar button {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
 }

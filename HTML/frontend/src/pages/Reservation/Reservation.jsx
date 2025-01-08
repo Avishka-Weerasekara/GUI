@@ -1,5 +1,5 @@
 import React from 'react'
-import './PlaceOrder.css'
+import './Reservation.css'
 import Navbar from '../../components/Navbar/Navbar'
 
 const PlaceOrder = () => {

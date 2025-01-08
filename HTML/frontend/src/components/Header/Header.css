@@ -13,17 +13,16 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Changed from start to center */
-    text-align: center; /* Added for text centering */
+    align-items: center; 
+    text-align: center; 
     gap: 1.5vw;
     max-width: 50%;
-    /* Removed bottom and left positioning */
-    top: 50%; /* Added for vertical centering */
-    left: 50%; /* Added for horizontal centering */
-    transform: translate(-50%, -50%); /* Centers the element perfectly */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
 }
 
-/* Rest of the CSS remains the same */
+
 
 .header-contents h2{
     font-weight: 500;
