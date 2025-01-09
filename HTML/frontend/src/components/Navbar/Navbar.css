@@ -3,14 +3,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    background: rgb(248, 248, 3);
+    box-shadow: 0 2px 4px ;
     position: relative;
 }
 
 .navbar .logo {
     width: 150px;
     height: auto;
+    background-color: #f9f902;
 }
 
 .navbar-menu {
@@ -20,6 +21,7 @@
     color: #4B5563;
     font-size: 1rem;
     font-weight: 500;
+    background-color: #faf206;
 }
 
 .navbar-right {
@@ -29,10 +31,10 @@
 }
 
 .navbar button {
-    background: white;
+    background: rgb(0, 0, 0);
     font-size: 0.95rem;
-    color: #4B5563;
-    border: 1.5px solid #FF6B6B;
+    color: #f8f5f5;
+    border: 1.5px solid #f3d31e;
     padding: 0.625rem 1.5rem;
     border-radius: 9999px;
     cursor: pointer;
@@ -41,8 +43,8 @@
 }
 
 .navbar button:hover {
-    background: #FF6B6B;
-    color: white;
+    background: #f0e102;
+    color: rgb(3, 3, 3);
 }
 
 .navbar .active {
