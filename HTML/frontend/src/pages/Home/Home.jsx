@@ -26,7 +26,7 @@ const Home = () => {
                     <img src='./home_3.jpg' class="home1"/>
                 </div>
                 <div class="card">
-                    <img src='' class="home1"/>
+                    <img src='./home_4.jpg' class="home1"/>
                 </div>
                 <div class="card">
                     <img src='' class="home1"/>

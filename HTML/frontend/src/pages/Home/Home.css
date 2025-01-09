@@ -76,7 +76,7 @@ body {
       }
   
       &:hover {
-        flex-grow: 10;
+        flex-grow: 5;
         img {
           filter: grayscale(0);
         }
