@@ -6,6 +6,7 @@ import Cart from './pages/Cart/Cart'
 import Reservation from './pages/Reservation/Reservation'
 import Menu from './pages/Menu/Menu'
 import ContactUs from './pages/ContactUs/ContactUs'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         < Route path='/contact-us' element={<ContactUs/>} />
       </Routes>
         </main>
+      <Footer/>
     </div>
   )
 }
