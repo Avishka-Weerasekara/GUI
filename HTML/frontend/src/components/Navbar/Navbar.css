@@ -3,25 +3,35 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ffd700;
-    box-shadow: 0 2px 4px ;
+    background: #000000; /* Black background for navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     position: relative;
 }
 
 .navbar .logo {
-    width: 150px;
-    height: auto;
-    background-color: #ffd700;
+    font-size: 1.5rem;
+    color: #ffffff; /* Yellow text for logo */
+    font-weight: bold;
 }
 
 .navbar-menu {
     display: flex;
     list-style: none;
     gap: 2.5rem;
-    color: #4B5563;
+    color: #FFFFFF; /* White menu items */
     font-size: 1rem;
     font-weight: 500;
-    background-color: #ffd700;
+    background-color: transparent;
+}
+
+.navbar-menu li {
+    cursor: pointer;
+    color: #FFFFFF; /* White menu items */
+    transition: color 0.2s ease;
+}
+
+.navbar-menu li:hover {
+    color: #FFD700; /* Yellow on hover */
 }
 
 .navbar-right {
@@ -31,10 +41,10 @@
 }
 
 .navbar button {
-    background: rgb(0, 0, 0);
+    background: #FFD700; /* Yellow background for button */
     font-size: 0.95rem;
-    color: #f8f5f5;
-    border: 1.5px solid #ffd700;
+    color: #000000; /* Black text for button */
+    border: none;
     padding: 0.625rem 1.5rem;
     border-radius: 9999px;
     cursor: pointer;
@@ -43,40 +53,32 @@
 }
 
 .navbar button:hover {
-    background: #ffd700;
-    color: rgb(3, 3, 3);
+    background: #FFFFFF; /* White background on hover */
+    color: #000000; /* Black text on hover */
 }
 
 .navbar .active {
-    color: #1F2937;
+    color: #FFD700; /* Yellow for active menu item */
     padding-bottom: 0.25rem;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #FFD700;
     font-weight: 600;
-}
-
-.navbar li {
-    cursor: pointer;
-    transition: color 0.2s ease;
-}
-
-.navbar li:hover {
-    color: #1F2937;
 }
 
 .navbar-search-icon {
     position: relative;
     cursor: pointer;
+    
 }
 
 .navbar-search-icon .dot {
     position: absolute;
     width: 0.625rem;
     height: 0.625rem;
-    background-color: #000000;
+    background-color: #FFD700; /* Yellow dot */
     border-radius: 50%;
     top: -0.375rem;
     right: -0.375rem;
-    border: 2px solid white;
+    border: 2px solid #000000; /* Black border */
 }
 
 .menu-icon {
@@ -96,10 +98,10 @@
         left: 0;
         right: 0;
         flex-direction: column;
-        background: white;
+        background: #000000; /* Black dropdown background */
         padding: 1rem;
         gap: 1rem;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         z-index: 1000;
     }
 

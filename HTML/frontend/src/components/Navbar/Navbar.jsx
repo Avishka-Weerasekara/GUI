@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
         <div className='navbar'>
-            <img src={assets.logo} alt="Restaurant Logo" className="logo" />
+            <div className="logo">Bite & Bliss</div>
             <div className="menu-icon" onClick={toggleMenu}>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     {isMenuOpen ? (
