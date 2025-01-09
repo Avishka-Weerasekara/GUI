@@ -1,13 +1,24 @@
 import React from 'react'
 import './Home.css'
 import Header from '../../components/Header/Header'
-import Footer from '../../components/Footer/Footer'
+
 
 
 const Home = () => {
   return (
     <div>
-      <Header/>
+        <div class="main-content">
+        <section class="home-section">
+            <div class="home-content">
+                <h1>Welcome to Bite & Bliss</h1>
+                <p>Experience the perfect blend of taste and luxury</p>
+            </div>
+        </section>
+        <div class="image-gallery">
+            <img src='./home_1.jpg'  alt="Delicious Indian cuisine" class="featured-image"></img>
+        </div>
+    </div>
+      
     </div>
   )
 }
