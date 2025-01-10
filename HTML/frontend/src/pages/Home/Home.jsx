@@ -12,10 +12,34 @@ const Home = () => {
                 <div class="home-content">
                     <h1>Welcome to Bite & Bliss</h1>
                     <p>Experience the perfect blend of taste and luxury</p>
+                    <div className="intro-container">
+                        <div className="intro-content">
+            
+                            <div className="description">
+                                <h3>Nestled in the heart of the city, Bite & Bliss brings together contemporary cuisine with timeless comfort. Our award-winning chefs craft each dish using locally-sourced ingredients, blending traditional recipes with modern innovation.</h3>
+                            </div>
+                            <div className="highlights">
+                                <div className="highlight-item">
+                                    <span>Daily Fresh</span>
+                                    <p>Farm-to-Table Ingredients</p>
+                                </div>
+                                <div className="highlight-item">
+                                    <span>Master Chefs</span>
+                                    <p>Culinary Excellence</p>
+                                </div>
+                                <div className="highlight-item">
+                                    <span>Ambiance</span>
+                                    <p>Modern Elegant Setting</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
+
+            
         
-            <div class="container">
+            <div class="container-1">
                 <div class="card">
                     <img src='./indian-home.jpg' class="home1"/>
                     <div class="card__head">Indian</div>
@@ -41,6 +65,11 @@ const Home = () => {
                     <div class="card__head">Beverages</div>
                 </div>
             </div>
+
+            <div className="button-container">
+                <button className="custom-btn">EXPLORE OUR MENU</button>
+            </div>
+            
         </div>  
     </div>
   )
