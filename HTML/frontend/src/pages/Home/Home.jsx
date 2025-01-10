@@ -17,19 +17,28 @@ const Home = () => {
         
             <div class="container">
                 <div class="card">
-                    <img src='./home_1.jpg' class="home1"/>
+                    <img src='./indian-home.jpg' class="home1"/>
+                    <div class="card__head">Indian</div>
                 </div>
                 <div class="card">
-                    <img src='./home_2.jpg' class="home1"/>
+                    <img src='./italian-home.jpg' class="home1"/>
+                    <div class="card__head">Italian</div>
                 </div>
                 <div class="card">
-                    <img src='./home_3.jpg' class="home1"/>
+                    <img src='./chinese-home.jpg' class="home1"/>
+                    <div class="card__head">Chinese</div>
                 </div>
                 <div class="card">
-                    <img src='./home_4.jpg' class="home1"/>
+                    <img src='./mexican-home.jpg' class="home1"/>
+                    <div class="card__head">Mexican</div>
                 </div>
                 <div class="card">
-                    <img src='' class="home1"/>
+                    <img src='./dessert-home.jpg' class="home1"/>
+                    <div class="card__head">Desserts</div>
+                </div>
+                <div class="card">
+                    <img src='./beverages-home.jpg' class="home1"/>
+                    <div class="card__head">Beverages</div>
                 </div>
             </div>
         </div>  
