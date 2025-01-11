@@ -49,7 +49,7 @@ body {
 
 .menu-content p {
     font-size: clamp(1.2rem, 3vw, 1.5rem); /* Responsive font size */
-    color: #666;
+    color: #000000;
 }
 
 .menu1 {
