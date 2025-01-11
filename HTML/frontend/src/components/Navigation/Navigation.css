@@ -1,0 +1,81 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This creates space between logo and links */
+    gap: 2rem;
+    padding: 1.25rem 2rem;
+    background-color: rgba(0, 0, 0, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+  
+.logo h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    margin-left: auto; /* Pushes the links to the right */
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    position: relative;
+    transition: all 0.3s ease;
+    font-size: medium;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+  
+  .nav-link:hover {
+    color: #FFD700;
+    transform: translateY(-1px);
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #FFD700;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .nav-link.active {
+    color: #FFD700;
+  }
+  
+  .nav-link.active::after {
+    width: 100%;
+    background-color: #FFD700;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navigation {
+      padding: 1rem;
+      gap: 1.5rem;
+    }
+  
+    .logo h1 {
+      font-size: 1.25rem;
+    }
+  
+    .nav-link {
+      padding: 0.5rem 0.75rem;
+    }
+  }

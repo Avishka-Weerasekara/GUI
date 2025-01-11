@@ -1,0 +1,53 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto; /* Added margin for better spacing */
+    width: 100%;
+    padding: 20px 0;
+}
+
+.custom-btn {
+    padding: 15px 35px; /* Increased padding for better proportion */
+    font-size: 1.1rem; /* Slightly larger font */
+    font-weight: 600; /* Bolder text */
+    color: #FFFFFF;
+    background: linear-gradient(45deg, #1a1a1a, #4a4a4a); /* Softer gradient */
+    border: none;
+    border-radius: 30px; /* More rounded corners */
+    cursor: pointer;
+    transition: all 0.4s ease; /* Smoother transition */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adjusted shadow color */
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Increased letter spacing */
+    position: relative; /* For hover effect */
+    overflow: hidden; /* For hover effect */
+}
+
+.custom-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+    background: linear-gradient(45deg, #2a2a2a, #5a5a5a); /* Slightly lighter gradient on hover */
+    letter-spacing: 2.5px; /* Subtle letter spacing animation */
+}
+
+.custom-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Disabled state */
+.custom-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+    background: linear-gradient(45deg, #808080, #a0a0a0); /* Different gradient for disabled state */
+}
+
+/* Add media query for responsive design */
+@media (max-width: 768px) {
+    .custom-btn {
+        padding: 12px 28px;
+        font-size: 1rem;
+    }
+}

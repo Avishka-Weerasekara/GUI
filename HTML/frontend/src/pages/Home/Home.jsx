@@ -1,5 +1,7 @@
 import React from 'react'
 import './Home.css'
+import MenuButton from '../../components/MenuButton/MenuButton'
+
 
 
 
@@ -66,9 +68,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="button-container">
-                <button className="custom-btn">EXPLORE OUR MENU</button>
-            </div>
+            <MenuButton/>
             
         </div>  
     </div>

@@ -1,0 +1,49 @@
+.header {
+    background-color: black;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .search-btn,
+  .cart-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .sign-in-btn {
+    background-color: #FFD700;
+    color: black;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #FFC700;
+  }
+  
