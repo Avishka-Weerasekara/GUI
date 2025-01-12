@@ -12,7 +12,7 @@ const Home = () => {
         <div class="main-content">
             <section class="home-section">
                 <div class="home-content">
-                    <h1>Welcome to Bite & Bliss</h1>
+                    <h1>Welcome to Bliss & Bite</h1>
                     <p>Experience the perfect blend of taste and luxury</p>
                     <div className="intro-container">
                         <div className="intro-content">
