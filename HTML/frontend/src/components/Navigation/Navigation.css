@@ -65,7 +65,35 @@
   }
   
   /* Responsive Design */
-  @media (max-width: 768px) {
+  @media (max-width: 1050px) {
+    .navigation {
+      padding: 1rem;
+      gap: 1.5rem;
+    }
+  
+    .logo h1 {
+      font-size: 1.25rem;
+    }
+  
+    .nav-link {
+      padding: 0.5rem 0.75rem;
+    }
+  }
+  @media (max-width: 900px) {
+    .navigation {
+      padding: 1rem;
+      gap: 1.5rem;
+    }
+  
+    .logo h1 {
+      font-size: 1.25rem;
+    }
+  
+    .nav-link {
+      padding: 0.5rem 0.75rem;
+    }
+  }
+  @media (max-width: 750px) {
     .navigation {
       padding: 1rem;
       gap: 1.5rem;

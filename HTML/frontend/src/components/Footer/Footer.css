@@ -44,3 +44,39 @@
     border-top: 1px solid #333;
     color: #888;
 }
+
+@media (max-width: 750px) {
+    .footer {
+      padding: 1rem;
+      gap: 1.5rem;
+    }
+  
+    .footer-content {
+      font-size: 1.25rem;
+    }
+  
+  }
+
+  @media (max-width: 900px) {
+    .footer {
+      padding: 1rem;
+      gap: 1.5rem;
+    }
+  
+    .footer-content {
+      font-size: 1.25rem;
+    }
+  
+  }
+ 
+  @media (max-width: 1050px) {
+    .footer {
+      padding: 1rem;
+      gap: 1.5rem;
+    }
+  
+    .footer-content {
+      font-size: 1.25rem;
+    }
+  
+  } 

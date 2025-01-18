@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    font-family: sans-serif;
+}
+
+.main-content-res {
+    min-height: 100vh;
+    width: 100%;
+    background: radial-gradient(#f7e665, #f0c200);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Add padding to create space for footer */
+    padding-bottom: 200px; 
+}
+
+.re-content {
+    font-size: larger;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    /* Change from absolute to relative positioning */
+    position: relative;
+    padding-top: 100px;
+}
+
+.re-content h1 {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main-content-res {
+        padding-bottom: 250px; /* Increase padding for mobile */
+    }
+    
+    .re-content {
+        width: 95%;
+    }
+    
+    .re-content h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content-res {
+        padding: 15px 15px 300px 15px; /* Increase bottom padding further for smaller screens */
+    }
+    
+    .re-content {
+        width: 100%;
+    }
+}
