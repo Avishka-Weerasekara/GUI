@@ -152,6 +152,7 @@
             Controls.Add(dgvCategory);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "CategoryForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CategoryForm";

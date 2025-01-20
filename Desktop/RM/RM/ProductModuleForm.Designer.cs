@@ -165,9 +165,9 @@
             label4.AutoSize = true;
             label4.Location = new Point(32, 194);
             label4.Name = "label4";
-            label4.Size = new Size(48, 20);
+            label4.Size = new Size(77, 20);
             label4.TabIndex = 19;
-            label4.Text = "Price :";
+            label4.Text = "Price (Rs) :";
             // 
             // txtPQty
             // 
@@ -240,6 +240,7 @@
             Controls.Add(txtPName);
             Controls.Add(label2);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "ProductModuleForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ProductModuleForm";

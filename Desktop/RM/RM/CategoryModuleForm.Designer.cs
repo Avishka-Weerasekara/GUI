@@ -159,6 +159,7 @@
             Controls.Add(txtCatName);
             Controls.Add(label2);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "CategoryModuleForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CategoryModuleForm";

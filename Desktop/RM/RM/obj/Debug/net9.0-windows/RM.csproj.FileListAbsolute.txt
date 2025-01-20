@@ -79,3 +79,4 @@ E:\Sem 3\GUI Project\GUI\Desktop\RM\RM\obj\Debug\net9.0-windows\RM.CategoryModul
 E:\Sem 3\GUI Project\GUI\Desktop\RM\RM\obj\Debug\net9.0-windows\RM.ProductForm.resources
 E:\Sem 3\GUI Project\GUI\Desktop\RM\RM\obj\Debug\net9.0-windows\RM.ProductModuleForm.resources
 E:\Sem 3\GUI Project\GUI\Desktop\RM\RM\obj\Debug\net9.0-windows\RM.OrderForm.resources
+E:\Sem 3\GUI Project\GUI\Desktop\RM\RM\obj\Debug\net9.0-windows\RM.OrderModuleForm.resources

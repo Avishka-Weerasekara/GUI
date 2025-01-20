@@ -44,12 +44,15 @@
             label3 = new Label();
             panel2 = new Panel();
             panel3 = new Panel();
+            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)btnOrder).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnUser).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnCategory).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnCustomer).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnProduct).BeginInit();
+            panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -139,6 +142,7 @@
             btnOrder.SizeMode = PictureBoxSizeMode.Zoom;
             btnOrder.TabIndex = 13;
             btnOrder.TabStop = false;
+            btnOrder.Click += btnOrder_Click;
             // 
             // btnUser
             // 
@@ -225,11 +229,23 @@
             // 
             // panel3
             // 
+            panel3.Controls.Add(pictureBox1);
             panel3.Dock = DockStyle.Fill;
             panel3.Location = new Point(0, 90);
             panel3.Name = "panel3";
             panel3.Size = new Size(982, 487);
             panel3.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.Yellow;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(32, 60);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(909, 351);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // MainForm
             // 
@@ -251,6 +267,8 @@
             ((System.ComponentModel.ISupportInitialize)btnCategory).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnCustomer).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnProduct).EndInit();
+            panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -271,11 +289,6 @@
         private Label label6;
         private Label label5;
         private Label label4;
-
-        
-
-
-
-
-        }
+        private PictureBox pictureBox1;
+    }
     }

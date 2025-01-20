@@ -171,6 +171,7 @@
             Controls.Add(panel1);
             Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "UserForm";
             Text = "UserForm";
             panel1.ResumeLayout(false);

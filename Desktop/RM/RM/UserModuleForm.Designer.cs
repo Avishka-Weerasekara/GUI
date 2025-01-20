@@ -120,6 +120,7 @@
             txtPass.Name = "txtPass";
             txtPass.Size = new Size(435, 27);
             txtPass.TabIndex = 6;
+            txtPass.UseSystemPasswordChar = true;
             // 
             // label4
             // 
@@ -197,6 +198,7 @@
             txtRepass.Name = "txtRepass";
             txtRepass.Size = new Size(435, 27);
             txtRepass.TabIndex = 13;
+            txtRepass.UseSystemPasswordChar = true;
             // 
             // label6
             // 
@@ -227,6 +229,7 @@
             Controls.Add(label2);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "UserModuleForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "UserModuleForm";

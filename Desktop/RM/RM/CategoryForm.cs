@@ -13,7 +13,7 @@ namespace RM
 {
     public partial class CategoryForm : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Hello\Documents\dbMS.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Hello\Documents\dbRM.mdf;Integrated Security=True;Connect Timeout=30");
         SqlCommand cm = new SqlCommand();
         SqlDataReader dr;
         public CategoryForm()

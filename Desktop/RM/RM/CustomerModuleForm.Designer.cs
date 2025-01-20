@@ -179,6 +179,7 @@
             Controls.Add(txtCName);
             Controls.Add(label2);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "CustomerModuleForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CustomerModuleForm";
