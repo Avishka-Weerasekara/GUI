@@ -20,7 +20,7 @@ const App = () => {
         < Route path='/menu' element={<Menu/>} />
         < Route path='/contact-us' element={<ContactUs/>} />
       </Routes>
-      <Footer/>
+      
         </main>
       
     </div>

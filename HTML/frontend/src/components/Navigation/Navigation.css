@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #1a1a1a;
+  background-color: #000000;
   padding: 1rem 2rem;
   position: fixed;
   width: 100%;
@@ -52,7 +52,8 @@
 }
 
 .nav-links a:hover {
-  background-color: #ffd700;
+  background-color: #ff65bd;
+  background: linear-gradient(45deg, #ff65bd, #f69b6a);
   color: #1a1a1a;
   transform: translateY(-2px);
 }
