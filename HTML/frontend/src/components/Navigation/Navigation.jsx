@@ -1,31 +1,31 @@
-import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navigation.css';
 
 const Navigation = () => {
-  const location = useLocation();
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => setMenuOpen((prev) => !prev);
 
   return (
-    
-    <nav className="navigation">
-        <div className="logo">
-            <h1>Bliss & Bite</h1>
+    <nav className="navbar">
+      <div className="nav-content">
+        <Link to="/" className="logo">Bite & Bliss</Link>
+        <div
+          className={`menu-toggle ${menuOpen ? 'active' : ''}`}
+          onClick={toggleMenu}
+        >
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
         </div>
-        <div className="nav-links">
-            <Link to="/" className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}>
-                Home
-            </Link>
-            <Link to="/menu" className={`nav-link ${location.pathname === '/menu' ? 'active' : ''}`}>
-                Menu
-            </Link>
-            <Link to="/reservation" className={`nav-link ${location.pathname === '/reservation' ? 'active' : ''}`}>
-                Reservation
-            </Link>
-            <Link to="/contact" className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`}>
-                Contact Us
-            </Link>
+        <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
+          <Link to="/">Home</Link>
+          <Link to="/menu">Menu</Link>
+          <Link to="/reservations">Reservations</Link>
+          <Link to="/about">About</Link>
         </div>
-      
+      </div>
     </nav>
   );
 };
