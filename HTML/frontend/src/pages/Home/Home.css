@@ -16,8 +16,23 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers elements horizontally */
+    justify-content: center; /* Centers elements vertically if needed */
+    text-align: center; /* Ensures text is centered within the elements */
+    height: 100%; /* Optional, ensures proper vertical alignment if full height is used */
+}
+
 .home-content h1 {
     font-size: 2.5rem;
     color: #f2f1f1;
     margin-bottom: 1rem;
 }
+
+.home-content p {
+    font-size: 1.5rem;
+    color: #f2f1f1;
+}
+  
