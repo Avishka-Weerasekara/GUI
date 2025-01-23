@@ -1,0 +1,23 @@
+.home {
+    display: flex;
+    flex-direction: column; /* Stack components vertically */
+    align-items: center;    /* Center horizontally (optional) */
+    margin: 20px;
+    padding: 0;
+    
+}
+
+.fn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hh{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.home-content h1 {
+    font-size: 2.5rem;
+    color: #f2f1f1;
+    margin-bottom: 1rem;
+}

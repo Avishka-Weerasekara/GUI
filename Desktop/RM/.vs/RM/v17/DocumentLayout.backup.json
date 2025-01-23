@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|solutionrelative:rm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\rm\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|solutionrelative:rm\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|e:\\sem 3\\gui project\\gui\\desktop\\rm\\rm\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|solutionrelative:rm\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|e:\\sem 3\\gui project\\gui\\desktop\\rm\\rm\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|solutionrelative:rm\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\rm\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|solutionrelative:rm\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\rm\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -136,11 +136,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CategoryForm.cs",
               "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\CategoryForm.cs",
               "RelativeDocumentMoniker": "RM\\CategoryForm.cs",
@@ -153,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CategoryForm.cs [Design]",
               "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\CategoryForm.cs",
               "RelativeDocumentMoniker": "RM\\CategoryForm.cs",
@@ -166,17 +166,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Loginform.cs [Design]",
-              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\Loginform.cs",
-              "RelativeDocumentMoniker": "RM\\Loginform.cs",
-              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\Loginform.cs [Design]",
-              "RelativeToolTip": "RM\\Loginform.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T18:47:06.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Loginform.cs",
               "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\Loginform.cs",
               "RelativeDocumentMoniker": "RM\\Loginform.cs",
@@ -192,23 +181,35 @@
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\Program.cs",
               "RelativeDocumentMoniker": "RM\\Program.cs",
-              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\Program.cs",
-              "RelativeToolTip": "RM\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\Program.cs*",
+              "RelativeToolTip": "RM\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T02:42:46.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\MainForm.cs",
               "RelativeDocumentMoniker": "RM\\MainForm.cs",
               "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\MainForm.cs [Design]",
               "RelativeToolTip": "RM\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T19:51:52.24Z"
+              "WhenOpened": "2025-01-13T19:51:52.24Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Loginform.cs [Design]",
+              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\Loginform.cs",
+              "RelativeDocumentMoniker": "RM\\Loginform.cs",
+              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\Loginform.cs [Design]",
+              "RelativeToolTip": "RM\\Loginform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T18:47:06.336Z"
             },
             {
               "$type": "Document",
@@ -223,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainForm.cs",
               "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\MainForm.cs",
               "RelativeDocumentMoniker": "RM\\MainForm.cs",
@@ -444,7 +445,8 @@
               "RelativeToolTip": "RM\\MainForm.Designer.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T02:36:44.489Z"
+              "WhenOpened": "2025-01-14T02:36:44.489Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
