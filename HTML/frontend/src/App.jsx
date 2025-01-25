@@ -22,7 +22,7 @@ const App = () => {
       </Routes>
       
         </main>
-      
+        <Footer/>
     </div>
   )
 }
