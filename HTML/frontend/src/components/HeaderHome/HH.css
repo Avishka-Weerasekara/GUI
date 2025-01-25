@@ -11,7 +11,7 @@
     .card {
       flex: 1;
       transition: all 1s ease-in-out;
-      height: 75vmin;
+      height: 60vmin;
       position: relative;
       .card__head {
         color: rgb(253, 252, 252);
