@@ -1,8 +1,9 @@
 import React from 'react'
 import './Home.css'
 import FN from '../../components/FrontAName/FN'
-import Footer from '../../components/Footer/Footer'
+
 import HH from '../../components/HeaderHome/HH'
+import HHT from '../../components/HeardeHomeTwo/HHT'
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       </div>
       
       <HH/>
+      <HHT/>
       
     </div>
   )

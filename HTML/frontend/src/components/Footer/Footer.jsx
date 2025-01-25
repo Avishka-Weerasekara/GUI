@@ -27,9 +27,9 @@ const Footer = () => {
             </div>
             <div class="footer-section">
                 <h3>Opening Hours</h3>
-                <p>Monday - Friday: 11am - 10pm</p>
-                <p>Saturday: 10am - 12pm</p>
-                <p>Sunday: 10am - 12pm</p>
+                <p>Monday - Friday: 11am - 11pm</p>
+                <p>Saturday: 11am - 11pm</p>
+                <p>Sunday: 11am - 11pm</p>
             </div>
         </div>
         <div class="copyright">

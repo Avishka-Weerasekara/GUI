@@ -1,82 +1,67 @@
 .footer {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 4rem 2rem 2rem;
-    width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 4rem 2rem 2rem;
+  width: 100%;
 }
 
 .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
 }
 
 .footer-section h3 {
-    color: #ffd700;
-    margin-bottom: 1.5rem;
-    font-size: 1.2rem;
+  color: #ffd700;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .footer-section p {
-    margin-bottom: 0.8rem;
-    line-height: 1.6;
-    color: #cccccc;
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  color: #cccccc;
 }
 
 .footer-section a {
-    display: block;
-    color: #cccccc;
-    text-decoration: none;
-    margin-bottom: 0.8rem;
-    transition: color 0.3s ease;
+  display: block;
+  color: #cccccc;
+  text-decoration: none;
+  margin-bottom: 0.8rem;
+  transition: color 0.3s ease;
 }
 
 .footer-section a:hover {
-    color: #ffd700;
+  color: #ffd700;
 }
 
 .copyright {
-    text-align: center;
-    margin-top: 3rem;
-    padding-top: 2rem;
-    border-top: 1px solid #000000;
-    color: #888;
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #000000;
+  color: #888;
 }
 
-@media (max-width: 750px) {
-    .footer {
-      padding: 1rem;
-      gap: 1.5rem;
-    }
-  
-    .footer-content {
-      font-size: 1.25rem;
-    }
-  
+@media (max-width: 1050px) {
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem;
   }
 
-  @media (max-width: 900px) {
-    .footer {
-      padding: 1rem;
-      gap: 1.5rem;
-    }
-  
-    .footer-content {
-      font-size: 1.25rem;
-    }
-  
+  .footer-content {
+    grid-template-columns: 1fr;
+    font-size: 1.1rem;
   }
- 
-  @media (max-width: 1050px) {
-    .footer {
-      padding: 1rem;
-      gap: 1.5rem;
-    }
-  
-    .footer-content {
-      font-size: 1.25rem;
-    }
-  
-  } 
+
+  .footer-section h3 {
+    font-size: 1.1rem;
+  }
+}
