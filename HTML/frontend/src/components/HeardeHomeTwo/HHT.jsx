@@ -7,23 +7,60 @@ const HHT = () => {
     const cards = [
       {
         id: 'card_1',
-        title: 'Card One',
-        imageSrc: 'https://codyhouse.co/demo-tutorials/stacking-cards/assets/img/img-1.jpg'
+        title: 'Architectural Wonders',
+        imageSrc: './home1.jpg',
+        content: (
+          <div>
+            
+            <h3>Smoked Truffle Butter Steak</h3>
+            <div className="card-text-box">
+              <hr></hr>
+              <p>Served with garlic-parmesan mashed potatoes and a side of herb-roasted vegetables, this dish is a perfect blend of elegance and indulgence.</p>
+            </div>
+          </div>
+        )
       },
       {
         id: 'card_2',
-        title: 'Card Two', 
-        imageSrc: 'https://codyhouse.co/demo-tutorials/stacking-cards/assets/img/img-2.jpg'
+        title: 'Urban Landscape Perspectives', 
+        imageSrc: './home2.jpg',
+        content: (
+          <div>
+            <h3>Golden Lava Shrimp</h3>
+            <div className="card-text-box">
+              <hr></hr>
+              <p>Crispy, golden-fried shrimp coated in a rich, creamy, and slightly spicy lava sauce, bursting with umami flavors. Served with a side of citrus-infused slaw and a drizzle of honey-lime glaze, this dish is the perfect balance of crunch, heat, and sweetness.</p>
+            </div>
+          </div>
+        )
       },
       {
         id: 'card_3',
-        title: 'Card Three',
-        imageSrc: 'https://codyhouse.co/demo-tutorials/stacking-cards/assets/img/img-3.jpg'
+        title: 'Modern Design Innovations',
+        imageSrc: './home3.jpg',
+        content: (
+          <div>
+            <h3>Velvet Berry Cheesecake</h3>
+            <div className="card-text-box">
+              <hr></hr>
+              <p>A luscious, creamy cheesecake infused with vanilla bean and swirled with a rich berry compote. Topped with a velvety blueberry glaze and delicate gold flakes, this dessert melts in your mouth, leaving a perfect balance of sweetness and tanginess in every bite.</p>
+            </div>
+          </div>
+        )
       },
       {
         id: 'card_4',
-        title: 'Card Four',
-        imageSrc: 'https://codyhouse.co/demo-tutorials/stacking-cards/assets/img/img-2.jpg'
+        title: 'Sustainable Living Spaces',
+        imageSrc: './home4.jpg',
+        content: (
+          <div>
+          <h3>Mystic Mint Lime Fizz</h3>
+          <div className="card-text-box">
+            <hr></hr>
+            <p>A refreshing blend of zesty lime, cool mint, and a hint of honey, topped with sparkling soda for the perfect fizzy kick. Served over crushed ice with a sprig of fresh mint, this invigorating drink is a burst of freshness in every sip!</p>
+          </div>
+        </div>
+        )
       }
     ];
   
@@ -36,13 +73,6 @@ const HHT = () => {
           onChange={() => setIsDebug(!isDebug)}
         />
   
-        <header>
-          <div>
-            <h1>Stacking Cards</h1>
-            <p>👇 Scroll down to see the effect.</p>
-          </div>
-        </header>
-  
         <main>
           <ul id="cards">
             {cards.map((card, index) => (
@@ -54,9 +84,7 @@ const HHT = () => {
               >
                 <div className="card__content">
                   <div>
-                    <h2>{card.title}</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <p><a href="#top" className="btn btn--accent">Read more</a></p>
+                    {card.content}
                   </div>
                   <figure>
                     <img src={card.imageSrc} alt="Image description" />
@@ -67,13 +95,7 @@ const HHT = () => {
           </ul>
         </main>
   
-        <aside>
-          {[...Array(5)].map((_, i) => (
-            <p key={i}>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem repellat non ratione eum provident quaerat obcaecati dicta autem voluptates sit cum quis distinctio, atque sint commodi reprehenderit perspiciatis iure velit molestiae eos molestias ipsa nihil quia?
-            </p>
-          ))}
-        </aside>
+        
       </div>
     );
   };

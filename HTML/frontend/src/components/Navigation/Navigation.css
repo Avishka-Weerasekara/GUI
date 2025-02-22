@@ -52,8 +52,8 @@
 }
 
 .nav-links a:hover {
-  background-color: #ff65bd;
-  background: linear-gradient(45deg, #ff65bd, #f69b6a);
+  background-color: #ffd000;
+  background: linear-gradient(45deg, #f5c860, #f9b508);
   color: #1a1a1a;
   transform: translateY(-2px);
 }

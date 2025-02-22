@@ -29,7 +29,9 @@ const HH = () => {
                     <img src='./beverages-home.jpg' class="home1"/>
                     <div class="card__head">Beverages</div>
                 </div>
-            </div>
+        </div>
+
+        <button class="btn_menu"><a href="/menu">View Full Menu </a></button>
     </div>
   )
 }

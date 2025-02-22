@@ -10,7 +10,7 @@ const Navigation = () => {
   return (
     <nav className="navbar">
       <div className="nav-content">
-        <Link to="/" className="logo">Bite & Bliss</Link>
+        <Link to="/" className="logo">Bliss & Bite</Link>
         <div
           className={`menu-toggle ${menuOpen ? 'active' : ''}`}
           onClick={toggleMenu}
@@ -22,8 +22,8 @@ const Navigation = () => {
         <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
           <Link to="/">Home</Link>
           <Link to="/menu">Menu</Link>
-          <Link to="/reservations">Reservations</Link>
-          <Link to="/about">About</Link>
+          <Link to="/reservation">Reservations</Link>
+          <Link to="/contactus">About</Link>
         </div>
       </div>
     </nav>

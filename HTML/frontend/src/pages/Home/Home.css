@@ -1,10 +1,12 @@
+
 .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    padding: 0;
-   }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 0;
+  background-color: #000000; /* Add your desired color here */
+}
    
    .fn {
     margin-top: 50px;
@@ -22,16 +24,27 @@
     margin-bottom: 50px;
    }
    
-   .home-content h1 {
-    font-size: 2.5rem;
+   .home-content h2 {
+    font-size: 3.2rem;
     color: #f2f1f1;
     margin-bottom: 1rem;
    }
    
+   
    .home-content p {
     margin-top: 10px;
-    font-size: 1.5rem;
+    font-size: x-small;
     color: #f2f1f1;
+    
+   }
+   .home-content hr{
+    
+        width: 100%;
+        height: 2px;
+        
+        background: linear-gradient(to right, #ff65bd, #f69b6a);
+        border: none;
+    
    }
    
    @media (max-width: 767px) {
@@ -63,3 +76,5 @@
       font-size: 1.5rem;
     }
    }
+
+   
