@@ -23,6 +23,16 @@ import RoganJosh from '../../assets/RoganJosh.jpg';
 import MalaiKofta from '../../assets/MalaiKofta.jpg';
 import ChanaMasala from '../../assets/ChanaMasala.jpg';
 
+// Italian
+import MargheritaPizza from '../../assets/MargheritaPizza.jpg';
+import PastaCarbonara from '../../assets/PastaCarbonara.jpg';
+import Lasagna from '../../assets/Lasagna.jpg';
+import Risotto from '../../assets/Risotto.jpg';
+import EggplantParmesan from '../../assets/EggplantParmesan.jpg';
+import FettuccineAlfredo from '../../assets/FettuccineAlfredo.jpg';
+import OssoBuco from '../../assets/OssoBuco.jpg';
+import Gnocchi from '../../assets/Gnocchi.jpg';
+import ChickenMarsala from '../../assets/ChickenMarsala.jpg';
 
 
 const FoodDisplay = ({ category }) => {
@@ -50,6 +60,18 @@ const FoodDisplay = ({ category }) => {
       { name: "Malai Kofta", price: "$15.99", description: "Vegetable dumplings in cream sauce", image: MalaiKofta },
       { name: "Chana Masala", price: "$13.99", description: "Spiced chickpea curry", image: ChanaMasala },
     ],
+    Italian: [
+      { name: "Margherita Pizza", price: "$15.99", description: "Classic tomato and mozzarella", image: MargheritaPizza },
+      { name: "Pasta Carbonara", price: "$13.99", description: "Creamy pasta with bacon", image: PastaCarbonara },
+      { name: "Lasagna", price: "$16.99", description: "Layered pasta with meat sauce", image: Lasagna },
+      { name: "Risotto", price: "$17.99", description: "Creamy arborio rice with mushrooms", image: Risotto },
+      { name: "Eggplant Parmesan", price: "$14.99", description: "Breaded eggplant with marinara", image: EggplantParmesan },
+      { name: "Fettuccine Alfredo", price: "$15.99", description: "Pasta in creamy parmesan sauce", image: FettuccineAlfredo },
+      { name: "Osso Buco", price: "$24.99", description: "Braised veal shanks", image: OssoBuco },
+      { name: "Gnocchi", price: "$16.99", description: "Potato dumplings in sage butter", image: Gnocchi },
+      { name: "Chicken Marsala", price: "$18.99", description: "Chicken in marsala wine sauce", image: ChickenMarsala },
+    ],
+
 
     
   };
