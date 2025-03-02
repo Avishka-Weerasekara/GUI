@@ -34,6 +34,48 @@ import OssoBuco from '../../assets/OssoBuco.jpg';
 import Gnocchi from '../../assets/Gnocchi.jpg';
 import ChickenMarsala from '../../assets/ChickenMarsala.jpg';
 
+// Chinese
+import KungPaoChicken from '../../assets/KungPaoChicken.jpg';
+import DimSum from '../../assets/DimSum.jpg';
+import MapoTofu from '../../assets/MapoTofu.jpg';
+import PekingDuck from '../../assets/PekingDuck.jpg';
+import HotPot from '../../assets/HotPot.jpg';
+import ChowMein from '../../assets/ChowMein.jpg';
+import SweetSourPork from '../../assets/SweetSourPork.jpg';
+import EggFooYoung from '../../assets/EggFooYoung.jpg';
+
+// Mexican
+import TacosAlPastor from '../../assets/TacosAlPastor.jpg';
+import Enchiladas from '../../assets/Enchiladas.jpg';
+import Guacamole from '../../assets/Guacamole.jpg';
+import ChilesRellenos from '../../assets/ChilesRellenos.jpg';
+import Fajitas from '../../assets/Fajitas.jpg';
+import MolePoblano from '../../assets/MolePoblano.jpg';
+import Quesadillas from '../../assets/Quesadillas.jpg';
+import Tamales from '../../assets/Tamales.jpg';
+import Pozole from '../../assets/Pozole.jpg';
+
+// Desserts
+import Tiramisu from '../../assets/Tiramisu.jpg';
+import ChocolateLavaCake from '../../assets/ChocolateLavaCake.jpg';
+import CremeBrulee from '../../assets/CremeBrulee.jpg';
+import ApplePie from '../../assets/ApplePie.jpg';
+import Cheesecake from '../../assets/Cheesecake.jpg';
+import IceCreamSundae from '../../assets/IceCreamSundae.jpg';
+import Baklava from '../../assets/Baklava.jpg';
+import FruitTart from '../../assets/FruitTart.jpg';
+import BrownieDelight from '../../assets/BrownieDelight.jpg';
+
+// Beverages
+import FreshLemonade from '../../assets/FreshLemonade.jpg';
+import MangoLassi from '../../assets/MangoLassi.jpg';
+import IcedTea from '../../assets/IcedTea.jpg';
+import Espresso from '../../assets/Espresso.jpg';
+import FruitSmoothie from '../../assets/FruitSmoothie.jpg';
+import ItalianSoda from '../../assets/ItalianSoda.jpg';
+import HotChocolate from '../../assets/HotChocolate.jpg';
+import GreenTea from '../../assets/GreenTea.jpg';
+import FreshJuice from '../../assets/FreshJuice.jpg';
 
 const FoodDisplay = ({ category }) => {
   const menuItems = {
@@ -70,6 +112,50 @@ const FoodDisplay = ({ category }) => {
       { name: "Osso Buco", price: "$24.99", description: "Braised veal shanks", image: OssoBuco },
       { name: "Gnocchi", price: "$16.99", description: "Potato dumplings in sage butter", image: Gnocchi },
       { name: "Chicken Marsala", price: "$18.99", description: "Chicken in marsala wine sauce", image: ChickenMarsala },
+    ],
+    Chinese: [
+      { name: "Kung Pao Chicken", price: "$14.99", description: "Spicy diced chicken with peanuts", image: KungPaoChicken },
+      { name: "Dim Sum", price: "$12.99", description: "Assorted steamed dumplings", image: DimSum },
+      { name: "Mapo Tofu", price: "$13.99", description: "Spicy tofu with minced pork", image: MapoTofu },
+      { name: "Peking Duck", price: "$29.99", description: "Classic roasted duck", image: PekingDuck },
+      { name: "Hot Pot", price: "$25.99", description: "DIY soup with choices of meat", image: HotPot },
+      { name: "Chow Mein", price: "$13.99", description: "Stir-fried noodles with vegetables", image: ChowMein },
+      { name: "Sweet & Sour Pork", price: "$15.99", description: "Crispy pork in tangy sauce", image: SweetSourPork },
+      { name: "Egg Foo Young", price: "$14.99", description: "Chinese style omelet", image: EggFooYoung },
+      { name: "Spring Rolls", price: "$8.99", description: "Crispy rolls with vegetables", image: SpringRolls }, 
+    ],
+    Mexican: [
+      { name: "Tacos al Pastor", price: "$13.99", description: "Marinated pork tacos", image: TacosAlPastor },
+      { name: "Enchiladas", price: "$14.99", description: "Rolled tortillas with filling", image: Enchiladas },
+      { name: "Guacamole", price: "$8.99", description: "Fresh avocado dip", image: Guacamole },
+      { name: "Chiles Rellenos", price: "$15.99", description: "Stuffed poblano peppers", image: ChilesRellenos },
+      { name: "Fajitas", price: "$17.99", description: "Sizzling meat with peppers", image: Fajitas },
+      { name: "Mole Poblano", price: "$18.99", description: "Chicken in chocolate-chili sauce", image: MolePoblano },
+      { name: "Quesadillas", price: "$12.99", description: "Grilled tortillas with cheese", image: Quesadillas },
+      { name: "Tamales", price: "$13.99", description: "Steamed corn dough with filling", image: Tamales },
+      { name: "Pozole", price: "$14.99", description: "Traditional hominy soup", image: Pozole },
+    ],
+    Desserts: [
+      { name: "Tiramisu", price: "$7.99", description: "Classic Italian coffee dessert", image: Tiramisu },
+      { name: "Chocolate Lava Cake", price: "$8.99", description: "Warm chocolate cake", image: ChocolateLavaCake },
+      { name: "Crème Brûlée", price: "$8.99", description: "Classic French custard", image: CremeBrulee },
+      { name: "Apple Pie", price: "$6.99", description: "Traditional American pie", image: ApplePie },
+      { name: "Cheesecake", price: "$7.99", description: "New York style cheesecake", image: Cheesecake },
+      { name: "Ice Cream Sundae", price: "$6.99", description: "Assorted ice cream with toppings", image: IceCreamSundae },
+      { name: "Baklava", price: "$7.99", description: "Layered pastry with nuts", image: Baklava },
+      { name: "Fruit Tart", price: "$8.99", description: "Fresh fruit with custard", image: FruitTart },
+      { name: "Brownie Delight", price: "$7.99", description: "Warm brownie with ice cream", image: BrownieDelight },
+    ],
+    Beverages: [
+      { name: "Fresh Lemonade", price: "$4.99", description: "House-made classic lemonade", image: FreshLemonade },
+      { name: "Mango Lassi", price: "$5.99", description: "Indian yogurt smoothie", image: MangoLassi },
+      { name: "Iced Tea", price: "$3.99", description: "Fresh brewed tea", image: IcedTea },
+      { name: "Espresso", price: "$3.99", description: "Double shot espresso", image: Espresso },
+      { name: "Fruit Smoothie", price: "$5.99", description: "Blended fresh fruits", image: FruitSmoothie },
+      { name: "Italian Soda", price: "$4.99", description: "Sparkling flavored drink", image: ItalianSoda },
+      { name: "Hot Chocolate", price: "$4.99", description: "Rich chocolate drink", image: HotChocolate },
+      { name: "Green Tea", price: "$3.99", description: "Traditional Japanese tea", image: GreenTea },
+      { name: "Fresh Juice", price: "$5.99", description: "Selection of fresh juices", image: FreshJuice },
     ],
 
 
