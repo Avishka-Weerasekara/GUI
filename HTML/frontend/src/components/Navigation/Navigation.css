@@ -45,15 +45,15 @@
 .nav-links a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
   padding: 8px 16px;
   border-radius: 4px;
   transition: all 0.3s ease;
 }
 
 .nav-links a:hover {
-  background-color: #ffd000;
-  background: linear-gradient(45deg, #f5c860, #f9b508);
+  background-color: #ffffff;
+  background: linear-gradient(45deg, #a8a6a6b6, #eeeeee);
   color: #1a1a1a;
   transform: translateY(-2px);
 }

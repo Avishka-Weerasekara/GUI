@@ -11,9 +11,9 @@
    .fn {
     margin-top: 50px;
     margin-bottom: 50px;
-   }
-   
-   .home-content {
+  }
+     
+     .home-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,21 +22,19 @@
     height: 100%;
     margin-top: 10px;
     margin-bottom: 50px;
-   }
-   
-   .home-content h2 {
-    font-size: 3.2rem;
+     }
+     
+     .home-content h2 {
+    font-size: 2.5rem; /* Reduced font size */
     color: #f2f1f1;
     margin-bottom: 1rem;
-   }
-   
-   
-   .home-content p {
-    margin-top: 10px;
-    font-size: x-small;
-    color: #f2f1f1;
-    
-   }
+     }
+     
+    .home-content h4 {
+      margin-top: 10px;
+      font-size: 1.2rem; /* Further reduced font size */
+      color: #f2f1f1;
+    }
    .home-content hr{
     
         width: 100%;
@@ -77,4 +75,25 @@
     }
    }
 
-   
+   .btn_menu {
+    background-color: #e00000;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 0.5rem;
+    border-color: azure;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: medium;
+    
+    transition: background-color 0.3s;
+    margin: 30px auto; /* This centers horizontally */
+    display: block; /* Needed for margin auto to work */
+  }
+  
+  .btn_menu:hover {
+    background-color: #ffffff;
+    background: linear-gradient(45deg, #a8a6a6b6, #eeeeee);
+    color: #1a1a1a;
+    transform: translateY(-2px);
+  }

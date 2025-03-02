@@ -9,17 +9,16 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: #000;
+    background: #000000;
     font-family: sans-serif;
-    margin-top: 30px;
-    
+    margin-top: 40px;
 }
 
 .main-content-menu {
     min-height: 100vh;
     width: 100%;
-    padding: 20px 20px 80px 20px;
-    background: radial-gradient(#d1c6c6, #915178);
+    padding: 20px 20px 20px 20px;
+    background: black;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -36,21 +35,33 @@ body {
 }
 
 .menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 2rem 0;
-    animation: fadeIn 3s;
-    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-.menu-content h1 {
-    font-size: clamp(2rem, 5vw, 2.5rem); /* Responsive font size */
-    color: #1a1a1a;
+.menu-content h2 {
+    font-size: 2.5rem;
+    color: #f2f1f1;
     margin-bottom: 1rem;
 }
 
-.menu-content p {
-    font-size: clamp(1.2rem, 3vw, 1.5rem); /* Responsive font size */
-    color: #000000;
+.menu-content h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #f2f1f1;
+}
+
+.menu-content hr {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #ff65bd, #f69b6a);
+    border: none;
 }
 
 .menu1 {
@@ -58,7 +69,7 @@ body {
     max-width: 1000px;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(255, 255, 255);
     margin: 0 auto;
 }
 
@@ -96,7 +107,6 @@ body {
         transform: translateY(0);
     }
 }
-/* Update these styles in your Menu.css */
 
 .menu-items {
     display: grid;
@@ -108,7 +118,7 @@ body {
 }
 
 .menu-item {
-    background: rgba(252, 252, 252, 0.95);
+    background: rgba(249, 249, 249, 0.95);
     border-radius: 12px;
     padding: 1.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -133,12 +143,12 @@ body {
 .menu-item h3 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
-    color: #1a1a1a;
+    color: #ffffff;
 }
 
 .menu-item p {
     font-size: 0.9rem;
-    color: #666;
+    color: #00000088;
     flex-grow: 1;
     margin-bottom: 1rem;
 }
@@ -163,5 +173,29 @@ body {
     
     .menu-item h3 {
         font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu-items {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+    
+    .menu-item {
+        padding: 0.75rem;
+    }
+    
+    .menu-item h3 {
+        font-size: 1rem;
+    }
+    
+    .menu-item p {
+        font-size: 0.8rem;
+    }
+    
+    .menu-item .price {
+        font-size: 1rem;
     }
 }

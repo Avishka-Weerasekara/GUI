@@ -6,32 +6,22 @@ const HH = () => {
     <div>
        <div class="container-1">
                 <div class="card">
-                    <img src='./indian-home.jpg' class="home1"/>
-                    <div class="card__head">Indian</div>
+                    <img src='./in.jpg' class="home1"/>
+                    <div class="card__head">Dinning Area</div>
                 </div>
                 <div class="card">
-                    <img src='./italian-home.jpg' class="home1"/>
-                    <div class="card__head">Italian</div>
+                    <img src='./out.jpg' class="home1"/>
+                    <div class="card__head">Outside Dinning Area</div>
                 </div>
                 <div class="card">
-                    <img src='./chinese-home.jpg' class="home1"/>
-                    <div class="card__head">Chinese</div>
+                    <img src='./bar.jpg' class="home1"/>
+                    <div class="card__head">Bar Area</div>
                 </div>
-                <div class="card">
-                    <img src='./mexican-home.jpg' class="home1"/>
-                    <div class="card__head">Mexican</div>
-                </div>
-                <div class="card">
-                    <img src='./dessert-home.jpg' class="home1"/>
-                    <div class="card__head">Desserts</div>
-                </div>
-                <div class="card">
-                    <img src='./beverages-home.jpg' class="home1"/>
-                    <div class="card__head">Beverages</div>
-                </div>
+                
+                
         </div>
 
-        <button class="btn_menu"><a href="/menu">View Full Menu </a></button>
+        <button class="btn_menu"><a href="/reservation">Make a Reservation</a></button>
     </div>
   )
 }
