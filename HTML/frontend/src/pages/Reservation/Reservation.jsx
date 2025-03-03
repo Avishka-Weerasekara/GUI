@@ -1,22 +1,91 @@
-import React from 'react'
-import './Reservation.css'
-import DT from '../../components/Date and time/DT'
-import ReservationForm from '../../components/ReservationForm/ReservationForm'
+import React, { useState } from 'react';
+import './Reservation.css';
+import DT from '../../components/Date and time/DT';
+import ReservationForm from '../../components/ReservationForm/ReservationForm';
+import axios from 'axios';
 
+const Reservation = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    groupSize: '',
+    date: '',
+    time: '',
+  });
 
-const Reservation = () => { 
-return (
+  const [message, setMessage] = useState('');
+  const [error, setError] = useState('');
+
+  const handleDateTimeSelect = (dateTime) => {
+    setFormData(prev => ({
+      ...prev,
+      date: dateTime.date,
+      time: dateTime.time,
+    }));
+  };
+
+  const handleFormChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    // Basic validation
+    if (!formData.name || !formData.email || !formData.phone || !formData.groupSize || !formData.date || !formData.time) {
+      setError('All fields are required.');
+      return;
+    }
+    if (!/^\S+@\S+\.\S+$/.test(formData.email)) {
+      setError('Please enter a valid email address.');
+      return;
+    }
+    if (!/^\d{10}$/.test(formData.phone.replace(/[-()\s]/g, ''))) {
+      setError('Please enter a valid 10-digit phone number.');
+      return;
+    }
+
+    try {
+      const response = await axios.post('http://localhost:4000/api/reserve/add', formData);
+      setMessage('Reservation successful! We’ll confirm soon.');
+      setError('');
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        groupSize: '',
+        date: '',
+        time: '',
+      });
+      console.log('Reservation saved:', response.data);
+    } catch (err) {
+      setError('Error making reservation. Please try again. ' + (err.response?.data?.error || err.message));
+      setMessage('');
+      console.error('Submission error:', err);
+    }
+  };
+
+  return (
     <div>
-        <div className="main-content-res">
-          <div className="re-content">
-            <h1>Reservation</h1>
-            <DT/>
-            <ReservationForm/>
-          </div>
-          
+      <div className="main-content-res">
+        <div className="re-content">
+          <h1>Reservation</h1>
+          <DT onDateTimeSelect={handleDateTimeSelect} />
+          <ReservationForm
+            formData={formData}
+            onChange={handleFormChange}
+            onSubmit={handleSubmit}
+            message={message}
+            error={error}
+          />
         </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Reservation
+export default Reservation;

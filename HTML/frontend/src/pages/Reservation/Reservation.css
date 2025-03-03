@@ -2,65 +2,86 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     margin: 0;
     padding: 0;
-    background: #000;
+    background: #000; /* Matches Home */
     font-family: sans-serif;
-}
-
-.main-content-res {
+  }
+  
+  .main-content-res {
     min-height: 100vh;
     width: 100%;
-    background: radial-gradient(#f7e665, #f0c200);
+    background-color: #000000; /* Matches Home background */
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Add padding to create space for footer */
-    padding-bottom: 200px; 
-}
-
-.re-content {
-    font-size: larger;
+    padding-bottom: 200px;
+  }
+  
+  .re-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     width: 90%;
     max-width: 600px;
     margin: 0 auto;
-    /* Change from absolute to relative positioning */
     position: relative;
     padding-top: 100px;
-}
-
-.re-content h1 {
+  }
+  
+  .re-content h1 {
     font-size: 2.5rem;
-    color: #1a1a1a;
+    color: #f2f1f1; /* Matches Home text color */
+    margin-bottom: 1rem;
+  }
+  
+  .re-content hr {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #ff65bd, #f69b6a); /* Matches Home gradient */
+    border: none;
     margin-bottom: 20px;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 767px) {
     .main-content-res {
-        padding-bottom: 250px; /* Increase padding for mobile */
+      padding-bottom: 250px; /* Increase padding for mobile */
     }
     
     .re-content {
-        width: 95%;
+      width: 95%;
     }
     
     .re-content h1 {
-        font-size: 2rem;
+      font-size: 2rem; /* Matches Home responsiveness */
     }
-}
-
-@media (max-width: 480px) {
+  }
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .re-content h1 {
+      font-size: 2.25rem; /* Matches Home responsiveness */
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .re-content h1 {
+      font-size: 2.5rem; /* Matches Home responsiveness */
+    }
+  }
+  
+  @media (max-width: 480px) {
     .main-content-res {
-        padding: 15px 15px 300px 15px; /* Increase bottom padding further for smaller screens */
+      padding: 15px 15px 300px 15px; /* Increase bottom padding further for smaller screens */
     }
     
     .re-content {
-        width: 100%;
+      width: 100%;
     }
-}
+  }

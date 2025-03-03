@@ -6,7 +6,6 @@ const DT = ({ onDateTimeSelect }) => {
   const [selectedTime, setSelectedTime] = useState('');
   const [availableTimes, setAvailableTimes] = useState([]);
 
-  // Generate time slots between start and end time
   useEffect(() => {
     const generateTimeSlots = () => {
       const times = [];
@@ -14,9 +13,8 @@ const DT = ({ onDateTimeSelect }) => {
       const endHour = 23; // 9 PM
       
       for (let hour = startHour; hour <= endHour; hour++) {
-        // Add both :00 and :30 time slots
         times.push(`${hour.toString().padStart(2, '0')}:00`);
-        if (hour !== endHour) { // Don't add :30 for the last hour
+        if (hour !== endHour) {
           times.push(`${hour.toString().padStart(2, '0')}:30`);
         }
       }
@@ -27,10 +25,8 @@ const DT = ({ onDateTimeSelect }) => {
     generateTimeSlots();
   }, []);
 
-  // Get today's date in YYYY-MM-DD format
   const today = new Date().toISOString().split('T')[0];
 
-  // Get max date (6 months from today)
   const getMaxDate = () => {
     const maxDate = new Date();
     maxDate.setMonth(maxDate.getMonth() + 6);
@@ -47,7 +43,6 @@ const DT = ({ onDateTimeSelect }) => {
     onDateTimeSelect({ date: selectedDate, time: e.target.value });
   };
 
-  // Convert 24h to 12h format
   const formatTime = (time) => {
     const [hours, minutes] = time.split(':');
     const hour = parseInt(hours);
@@ -56,7 +51,6 @@ const DT = ({ onDateTimeSelect }) => {
     return `${formattedHour}:${minutes} ${ampm}`;
   };
 
-  // Get day of week
   const getDayOfWeek = (dateString) => {
     if (!dateString) return '';
     const date = new Date(dateString);
