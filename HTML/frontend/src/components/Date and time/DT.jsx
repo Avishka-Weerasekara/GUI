@@ -34,13 +34,17 @@ const DT = ({ onDateTimeSelect }) => {
   };
 
   const handleDateChange = (e) => {
-    setSelectedDate(e.target.value);
-    onDateTimeSelect({ date: e.target.value, time: selectedTime });
+    const newDate = e.target.value;
+    setSelectedDate(newDate);
+    console.log("Selected Date:", newDate); // Add this for debugging
+    onDateTimeSelect({ date: newDate, time: selectedTime });
   };
-
+  
   const handleTimeChange = (e) => {
-    setSelectedTime(e.target.value);
-    onDateTimeSelect({ date: selectedDate, time: e.target.value });
+    const newTime = e.target.value;
+    setSelectedTime(newTime);
+    console.log("Selected Time:", newTime); // Add this for debugging
+    onDateTimeSelect({ date: selectedDate, time: newTime });
   };
 
   const formatTime = (time) => {

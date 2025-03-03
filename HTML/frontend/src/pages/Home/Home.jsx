@@ -7,7 +7,7 @@ import HHT from '../../components/HeardeHomeTwo/HHT'
 
 function Home() {
   return (
-    <div class="home">
+    <div className="home">
       <div className="fn"><FN/></div>
       <div className="home-content">
         <h2>Welcome to Bliss & Bite</h2>
@@ -25,7 +25,7 @@ function Home() {
 
       <HHT/>
       <div className="menu_btn">
-        <button class="btn_menu"><a href="/menu">View Full Menu </a></button> 
+        <button className="btn_menu"><a href="/menu">View Full Menu </a></button> 
       </div>
       
       <div className="home-content">

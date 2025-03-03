@@ -18,6 +18,7 @@ const Reservation = () => {
   const [error, setError] = useState('');
 
   const handleDateTimeSelect = (dateTime) => {
+    console.log("Received DateTime:", dateTime); // Add this for debugging
     setFormData(prev => ({
       ...prev,
       date: dateTime.date,
@@ -35,37 +36,44 @@ const Reservation = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // Basic validation
+    console.log("Form Data before submission:", formData); // Add this line for debugging
     if (!formData.name || !formData.email || !formData.phone || !formData.groupSize || !formData.date || !formData.time) {
-      setError('All fields are required.');
+      setError("All fields are required.");
       return;
     }
     if (!/^\S+@\S+\.\S+$/.test(formData.email)) {
-      setError('Please enter a valid email address.');
+      setError("Please enter a valid email address.");
       return;
     }
-    if (!/^\d{10}$/.test(formData.phone.replace(/[-()\s]/g, ''))) {
-      setError('Please enter a valid 10-digit phone number.');
+    if (!/^\d{10}$/.test(formData.phone.replace(/[-()\s]/g, ""))) {
+      setError("Please enter a valid 10-digit phone number.");
       return;
     }
-
+  
     try {
-      const response = await axios.post('http://localhost:4000/api/reserve/add', formData);
-      setMessage('Reservation successful! We’ll confirm soon.');
-      setError('');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        groupSize: '',
-        date: '',
-        time: '',
+      const response = await axios.post("http://localhost:4001/api/reserve/add", {
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        groupSize: formData.groupSize,
+        date: formData.date,
+        time: formData.time,
       });
-      console.log('Reservation saved:', response.data);
+      setMessage("Reservation successful! We’ll confirm soon.");
+      setError("");
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        groupSize: "",
+        date: "",
+        time: "",
+      });
+      console.log("Reservation saved:", response.data);
     } catch (err) {
-      setError('Error making reservation. Please try again. ' + (err.response?.data?.error || err.message));
-      setMessage('');
-      console.error('Submission error:', err);
+      setError("Error making reservation. Please try again. " + (err.response?.data?.error || err.message));
+      setMessage("");
+      console.error("Submission error:", err);
     }
   };
 
