@@ -1,0 +1,34 @@
+.food-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.food-item {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.food-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.food-item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #ffefef;
+}
+
+.food-item p {
+    color: #000000;
+    font-size: 0.9em;
+}

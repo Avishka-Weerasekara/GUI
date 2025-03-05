@@ -22,8 +22,14 @@ const Menu = () => {
                     <FoodDisplay category={category}/>
                 </section>
             </div>  
+            <div className="menu_btn">
+                <button className="btn_menu" onClick={() => window.location.href='/reservation'}>
+                    Make a Reservation
+                </button>
+            </div>
         </div>
     )
+    
 }
 
 export default Menu

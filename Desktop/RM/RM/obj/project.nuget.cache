@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "i2a7vhh+Sc4=",
+  "dgSpecHash": "gD2k4MeZsHg=",
   "success": true,
   "projectFilePath": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\RM.csproj",
   "expectedPackageFiles": [
@@ -53,7 +53,8 @@
     "C:\\Users\\Hello\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Hello\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
     "C:\\Users\\Hello\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\Hello\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\Hello\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\Hello\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.200\\microsoft.net.sdk.compilers.toolset.9.0.200.nupkg.sha512"
   ],
   "logs": []
 }

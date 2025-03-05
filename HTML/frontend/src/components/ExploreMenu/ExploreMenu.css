@@ -13,7 +13,7 @@
 
 .explore-menu text {
     max-width: 100%;
-    color: #f7f7f7;
+    color: #000000;
 }
 
 .explore-menu-list {
@@ -61,7 +61,7 @@
 
 .explore-menu-item .active {
     border: 2px solid rgb(255, 255, 255);
-    padding: 4px;
+    padding: 8px;
 }
 
 /* Media Queries */
