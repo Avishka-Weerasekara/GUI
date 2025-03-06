@@ -32,3 +32,50 @@
     color: #000000;
     font-size: 0.9em;
 }
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu-item {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    height: 375px; 
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.menu-item-content h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333333;
+}
+
+.menu-item-content p {
+    color: #666666;
+    font-size: 0.9em;
+}
+
+.menu-item-content .price {
+    display: block;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #ff6600;
+    font-weight: bold;
+}
