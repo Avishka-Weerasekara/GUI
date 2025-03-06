@@ -4,6 +4,7 @@
     --card-top-offset: 1em;
     --numcards: 4;
     --outline-width: 0px;
+    
 }
 
 @media (min-width: 576px) {

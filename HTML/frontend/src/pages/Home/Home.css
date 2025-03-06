@@ -85,6 +85,7 @@
     cursor: pointer;
     font-weight: 700;
     font-size: medium;
+    margin-top: auto;
     
     transition: background-color 0.3s;
     margin: 30px auto; /* This centers horizontally */

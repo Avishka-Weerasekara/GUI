@@ -24,6 +24,15 @@ function Home() {
       
 
       <HHT/>
+      
+      
+      <div className="home-content">
+        <h2>Inside Bliss & Bite - A Culinary Heaven</h2>
+        <hr/>
+        <h4>Bliss & Bite offers a luxurious indoor dining space, a scenic outdoor patio for open-air elegance, and a lively bar serving handcrafted cocktails all designed for a truly unforgettable experience. 
+        </h4>
+         
+      </div>
       <div className="menu_btn">
         <button className="btn_menu"><a href="/menu">View Full Menu </a></button> 
       </div>

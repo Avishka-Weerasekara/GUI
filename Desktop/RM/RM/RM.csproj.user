@@ -25,6 +25,9 @@
     <Compile Update="OrderForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="OrderModuleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <DesignDataWithDesignTimeCreatableTypes Update="OrderModuleForm.cs">
       <SubType>Form</SubType>
     </DesignDataWithDesignTimeCreatableTypes>

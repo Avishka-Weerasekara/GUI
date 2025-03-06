@@ -180,7 +180,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.Blue;
+            panel1.BackColor = Color.Navy;
             panel1.Controls.Add(btnAdd);
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Bottom;
