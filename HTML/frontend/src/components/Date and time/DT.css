@@ -42,7 +42,7 @@
 
 .date-input:focus {
   outline: none;
-  border-color: #ffd700; /* Keep yellow focus for visibility */
+  border-color: #ff0000; /* Keep yellow focus for visibility */
 }
 
 .selected-day {
@@ -81,12 +81,12 @@
 
 .time-slot:hover {
   background-color: #f5f5f5;
-  border-color: #ffd700; /* Keep yellow hover for visibility */
+  border-color: #000000; /* Keep yellow hover for visibility */
 }
 
 .time-slot.selected {
-  background-color: #ffd700; /* Keep yellow for selected state */
-  border-color: #ffd700;
+  background-color: #ff0000; /* Keep yellow for selected state */
+  border-color: #ff0000;
   color: #000;
   font-weight: 600;
 }

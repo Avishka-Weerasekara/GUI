@@ -41,7 +41,7 @@
 .form-group input:focus,
 .form-group select:focus {
   outline: none;
-  border-color: #ffd700;
+  border-color: #ff0000;
   box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.1);
 }
 
@@ -71,7 +71,7 @@
 
 .btn-reserve:hover {
   background-color: #ffffff;
-  background: linear-gradient(45deg, #a8a6a6b6, #eeeeee); /* Matches Home button hover */
+  background: red; /* Matches Home button hover */
   color: #1a1a1a; /* Matches Home button hover text */
   transform: translateY(-2px); /* Matches Home button hover effect */
 }

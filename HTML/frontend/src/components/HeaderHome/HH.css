@@ -74,7 +74,7 @@
 
 .btn_menu:hover {
   background-color: #ff65bd;
-  background: linear-gradient(45deg, #ff65bd, #f69b6a);
+  background: red;
   color: #1a1a1a;
   transform: translateY(-2px);
 }
