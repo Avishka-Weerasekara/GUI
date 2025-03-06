@@ -20,8 +20,8 @@ const Footer = () => {
             </div>
             <div className="footer-section">
                 <h3>Contact Info</h3>
-                <p>123 Bite & Bliss</p>
-                <p>North City, State 12345</p>
+                <p>Bite & Bliss</p>
+                <p>North City, Sri Lanka</p>
                 <p>Phone: (123) 456-7890</p>
                 <p>Email: info@Bite&Bliss.com</p>
             </div>
