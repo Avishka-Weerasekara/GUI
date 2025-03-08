@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\rm\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|e:\\sem 3\\gui project\\gui\\desktop\\rm\\rm\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|solutionrelative:rm\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|solutionrelative:rm\\ordermoduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|e:\\sem 3\\gui project\\gui\\desktop\\rm\\rm\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\rm\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7EFAC199-FDE6-44BC-A9E7-4985864AEA54}|RM\\RM.csproj|solutionrelative:rm\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -175,59 +175,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderForm.cs [Design]",
-              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\OrderForm.cs",
-              "RelativeDocumentMoniker": "RM\\OrderForm.cs",
-              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\OrderForm.cs [Design]",
-              "RelativeToolTip": "RM\\OrderForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T04:32:23.154Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderModuleForm.cs [Design]",
-              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\OrderModuleForm.cs",
-              "RelativeDocumentMoniker": "RM\\OrderModuleForm.cs",
-              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\OrderModuleForm.cs [Design]",
-              "RelativeToolTip": "RM\\OrderModuleForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T07:42:34.968Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\MainForm.cs",
-              "RelativeDocumentMoniker": "RM\\MainForm.cs",
-              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\MainForm.cs [Design]",
-              "RelativeToolTip": "RM\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T19:51:52.24Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductForm.cs [Design]",
-              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\ProductForm.cs",
-              "RelativeDocumentMoniker": "RM\\ProductForm.cs",
-              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\ProductForm.cs [Design]",
-              "RelativeToolTip": "RM\\ProductForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T04:45:02.501Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -240,28 +192,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T04:38:36.477Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserModuleForm.cs [Design]",
-              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\UserModuleForm.cs",
-              "RelativeDocumentMoniker": "RM\\UserModuleForm.cs",
-              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\UserModuleForm.cs [Design]",
-              "RelativeToolTip": "RM\\UserModuleForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T05:40:22.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Loginform.cs [Design]",
-              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\Loginform.cs",
-              "RelativeDocumentMoniker": "RM\\Loginform.cs",
-              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\Loginform.cs [Design]",
-              "RelativeToolTip": "RM\\Loginform.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T18:47:06.336Z"
             },
             {
               "$type": "Document",
@@ -284,8 +214,7 @@
               "RelativeToolTip": "RM\\OrderModuleForm.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwIgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T07:45:05.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T07:45:05.389Z"
             },
             {
               "$type": "Document",
@@ -310,39 +239,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-03-06T10:45:43.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserForm.cs [Design]",
-              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\UserForm.cs",
-              "RelativeDocumentMoniker": "RM\\UserForm.cs",
-              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\UserForm.cs [Design]",
-              "RelativeToolTip": "RM\\UserForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T11:00:05.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CustomerModuleForm.cs [Design]",
-              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\CustomerModuleForm.cs",
-              "RelativeDocumentMoniker": "RM\\CustomerModuleForm.cs",
-              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\CustomerModuleForm.cs [Design]",
-              "RelativeToolTip": "RM\\CustomerModuleForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T04:59:29.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoryForm.cs [Design]",
-              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\CategoryForm.cs",
-              "RelativeDocumentMoniker": "RM\\CategoryForm.cs",
-              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\CategoryForm.cs [Design]",
-              "RelativeToolTip": "RM\\CategoryForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T04:12:13.854Z"
             },
             {
               "$type": "Document",
@@ -475,8 +371,7 @@
               "RelativeToolTip": "RM\\MainForm.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAQwEQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T02:37:33.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T02:37:33.443Z"
             },
             {
               "$type": "Document",
@@ -560,8 +455,7 @@
               "RelativeToolTip": "RM\\CustomerForm.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwDIAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T04:56:40.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T04:56:40.116Z"
             },
             {
               "$type": "Document",
@@ -585,8 +479,7 @@
               "RelativeToolTip": "RM\\OrderModuleForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T08:55:13.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T08:55:13.529Z"
             },
             {
               "$type": "Document",
@@ -598,8 +491,7 @@
               "RelativeToolTip": "RM\\MainForm.Designer.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T02:36:44.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T02:36:44.489Z"
             },
             {
               "$type": "Document",
@@ -645,11 +537,110 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderForm.cs [Design]",
+              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\OrderForm.cs",
+              "RelativeDocumentMoniker": "RM\\OrderForm.cs",
+              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\OrderForm.cs [Design]",
+              "RelativeToolTip": "RM\\OrderForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T04:32:23.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderModuleForm.cs [Design]",
+              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\OrderModuleForm.cs",
+              "RelativeDocumentMoniker": "RM\\OrderModuleForm.cs",
+              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\OrderModuleForm.cs [Design]",
+              "RelativeToolTip": "RM\\OrderModuleForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T07:42:34.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\MainForm.cs",
+              "RelativeDocumentMoniker": "RM\\MainForm.cs",
+              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\MainForm.cs [Design]",
+              "RelativeToolTip": "RM\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T19:51:52.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductForm.cs [Design]",
+              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\ProductForm.cs",
+              "RelativeDocumentMoniker": "RM\\ProductForm.cs",
+              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\ProductForm.cs [Design]",
+              "RelativeToolTip": "RM\\ProductForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T04:45:02.501Z"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserModuleForm.cs [Design]",
+              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\UserModuleForm.cs",
+              "RelativeDocumentMoniker": "RM\\UserModuleForm.cs",
+              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\UserModuleForm.cs [Design]",
+              "RelativeToolTip": "RM\\UserModuleForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T05:40:22.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Loginform.cs [Design]",
+              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\Loginform.cs",
+              "RelativeDocumentMoniker": "RM\\Loginform.cs",
+              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\Loginform.cs [Design]",
+              "RelativeToolTip": "RM\\Loginform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T18:47:06.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserForm.cs [Design]",
+              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\UserForm.cs",
+              "RelativeDocumentMoniker": "RM\\UserForm.cs",
+              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\UserForm.cs [Design]",
+              "RelativeToolTip": "RM\\UserForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:00:05.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerModuleForm.cs [Design]",
+              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\CustomerModuleForm.cs",
+              "RelativeDocumentMoniker": "RM\\CustomerModuleForm.cs",
+              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\CustomerModuleForm.cs [Design]",
+              "RelativeToolTip": "RM\\CustomerModuleForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T04:59:29.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryForm.cs [Design]",
+              "DocumentMoniker": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\CategoryForm.cs",
+              "RelativeDocumentMoniker": "RM\\CategoryForm.cs",
+              "ToolTip": "E:\\Sem 3\\GUI Project\\GUI\\Desktop\\RM\\RM\\CategoryForm.cs [Design]",
+              "RelativeToolTip": "RM\\CategoryForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T04:12:13.854Z"
             },
             {
               "$type": "Document",

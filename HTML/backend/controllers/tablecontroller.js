@@ -34,7 +34,7 @@ const addRes = async (req, res) => {
         email,
         phone: String(phone),
         groupSize: groupSizeNum,
-        date: formattedDate,
+        date: parsedDate,
         time
       });
   
